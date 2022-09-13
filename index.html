@@ -18,14 +18,27 @@
     <header>
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand text-white" href="./index.html"><img src="./assets/logoGr.png" width="90" height="40" alt=""></a>
-            <form class="form-inline">
+            <form class="form-inline buscador">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </nav>
     </header>
     
-    <h1>Products</h1>
+    <h1 class="titleProducts">Products</h1>
+    
+    <div class="category col-6">
+        <select id="category" onclick="categoryValue()">
+            <option value="">Categorias</option>
+            <option value="energetica">Bebida energetica</option>
+            <option value="pisco">Pisco</option>
+            <option value="ron">Ron</option>
+            <option value="bebida">Bebida</option>
+            <option value="snack">Snack</option>
+            <option value="cerveza">Cerveza</option>
+            <option value="vodka">Vodka</option>
+        </select>
+    </div>
     <div class="container">
         <div class="">
             <div class="row align-middle" id="cardD">
